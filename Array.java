@@ -82,6 +82,7 @@ class Array{
                         System.out.println(arr[i]);
                 }
         }
+        //adding to git hub
         public static void main(String[] args){
                 Array arr=new Array(5);
                 arr.insert(0,10);
