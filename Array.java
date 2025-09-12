@@ -9,7 +9,7 @@ class Array{
                 arr=new int[cap];
                 s=0;
         }
-
+        //hey added
         //getting the array element
         public int get(int index){
                 if(index<0 || index>=s){
