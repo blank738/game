@@ -1,0 +1,18 @@
+#one{
+    font-family:"Hubble Bubble";
+    font-size: 56px;
+}
+body{
+    background-color: aquamarine;
+    border-color: black;
+    border-width: 20px;
+    border-style: solid;
+}
+#inp{
+    padding:20px;
+    background-color: rgb(220, 162, 220);
+}
+button{
+    padding:20px;
+    background-color: rgb(220, 162, 220);
+}

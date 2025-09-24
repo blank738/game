@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Simple Game!</title>
+        <link rel="stylesheet"href=style.css>
+    </head>
+    <body>
+        <center>
+        <h1 id="one">Hey there lets begin our game 😍!</h1>
+        <input id="inp" type="number" placeholder="Enter a number">
+        <button onclick="ans()">Check</button>
+        <h3 id="fail">Your Result</h3>
+        <h3 id="sco">your Score:10</h3>
+        <h5>i have done this project by reffernce error mkes cleave channel</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/poo0BXryffI?si=rBahNidCJ08ASxaG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+    <script>
+        var inum=document.getElementById("inp")
+        var mes=document.getElementById("fail")
+        var scr=document.getElementById("sco")
+        var rand=Math.floor(Math.random()*10)+1
+        var score=10
+        function ans(){
+            var ennum=Number(inum.value)
+            if(rand==ennum){
+                mes.textContent="You won! congrats 🙌😘👍"
+                alert("you won!")
+            }
+            else{
+                mes.textContent="Not match try again!"
+                score=score-1
+            }
+             scr.textContent="score:"+score
+        } 
+    </script>
+    </body>
+</html>
